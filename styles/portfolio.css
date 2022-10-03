@@ -65,6 +65,10 @@ h2 {
 }
 img {
   max-width: 450px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .project-description {
   padding: 120px 60px;

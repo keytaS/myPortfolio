@@ -73,6 +73,27 @@ img {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section img {
+  padding: 0;
+  border-radius: 4px;
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+}
+.about-section-content {
+  margin: 30px;
+}
 
 @media (max-width: 900px) {
   .project-description {
@@ -81,6 +102,10 @@ img {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
   h1 {
     font-size: 60px;

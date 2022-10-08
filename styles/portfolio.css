@@ -14,13 +14,14 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
   color: var(--black-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 94px;
 }
 p {
   font-weight: normal;
@@ -53,7 +54,7 @@ p {
   padding: 15px 30px;
 }
 h2 {
-  font-size: 62px;
+  font-size: 52px;
 }
 h4 {
   font-size: 48px;
@@ -68,16 +69,20 @@ h4 {
 }
 img {
   max-width: 450px;
-  border-radius: 30px;
-  padding: 20px;
+  border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+.memoji {
+  height: 500px;
+  width: 500px;
+  box-shadow: none;
+}
 .project-description {
-  padding: 120px 60px;
+  padding: 40px 60px;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -95,7 +100,8 @@ img {
   object-fit: cover;
 }
 .content {
-  margin: 30px;
+  margin: 10px;
+  padding-top: 40px;
 }
 .content h3 {
   font-size: 24px;
@@ -177,7 +183,15 @@ footer .contact-box p {
   color: var(--brading-color);
   text-decoration: none;
 }
-
+.about-me {
+  color: var(--third-color);
+  font-size: 12px;
+}
+h7 {
+  font-size: 46px;
+  line-height: 10px;
+  margin: 0px;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
